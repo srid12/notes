@@ -1,0 +1,8 @@
+cache-control: private -> cached by client, never by CDN
+cache-control: public -> Cahced by any client
+cache-control: no-store -> cannot be cached anywhere
+cache-control: no-cache -> cached versions of the requested resource cannot be used without first checking to see if there is an updated version. 
+This is typically done using an ETag.
+cache-control: max-age
+cache-control: s-maxage
+
